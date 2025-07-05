@@ -25,6 +25,7 @@ const App = () => {
         setError('');
       } catch (err) {
         setError('Failed to fetch users. Please try again later.');
+        console.log(err);
       }
       setLoading(false);
     };

@@ -7,7 +7,7 @@ const UserCard = ({ user }) => (
       alt="Profile"
       className="rounded-full w-50 h-50 mx-auto block "
       style={{marginTop:"2%"}}
-      // className="rounded-full w-20 h-20 mx-auto"
+     
     />
     <h2 className="text-center text-lg font-semibold mt-2">
       {user.name.first} {user.name.last}
